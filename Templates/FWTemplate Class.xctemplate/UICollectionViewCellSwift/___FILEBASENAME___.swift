@@ -13,7 +13,7 @@ class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___ {
         return String(describing: self)
     }
     
-    class func cell(withCollectionView collectionView: UICollectionView, forIndexPath indexPath: IndexPath) -> ___FILEBASENAMEASIDENTIFIER___ {
+    class func cell(with collectionView: UICollectionView, for indexPath: IndexPath) -> ___FILEBASENAMEASIDENTIFIER___ {
         let identifier = cellIdentifier()
         if let cell = collectionView.dequeueReusableCell(withReuseIdentifier: identifier, for: indexPath) as? ___FILEBASENAMEASIDENTIFIER___ { return cell }
         return ___FILEBASENAMEASIDENTIFIER___()

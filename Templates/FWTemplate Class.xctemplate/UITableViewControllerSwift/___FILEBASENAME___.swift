@@ -48,7 +48,7 @@ extension ___FILEBASENAMEASIDENTIFIER___ {
     }
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = <#UITableViewCell#>.cell(withTableView: tableView)
+        let cell = <#UITableViewCell#>.cell(with: tableView)
         
         return cell
     }

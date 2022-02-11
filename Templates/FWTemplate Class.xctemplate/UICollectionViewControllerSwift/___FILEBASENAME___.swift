@@ -48,7 +48,7 @@ extension ___FILEBASENAMEASIDENTIFIER___ {
     }
 
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        let cell = <#UICollectionViewCell#>.cell(withCollectionView: collectionView, forIndexPath: indexPath)
+        let cell = <#UICollectionViewCell#>.cell(with: collectionView, for: indexPath)
     
         return cell
     }
