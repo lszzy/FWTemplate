@@ -13,7 +13,7 @@ class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___ {
         return String(describing: self)
     }
     
-    class func view(withCollectionView collectionView: UICollectionView, ofKind kind: String, forIndexPath indexPath: IndexPath) -> ___FILEBASENAMEASIDENTIFIER___ {
+    class func view(with collectionView: UICollectionView, ofKind kind: String, for indexPath: IndexPath) -> ___FILEBASENAMEASIDENTIFIER___ {
         let identifier = viewIdentifier()
         if let view = collectionView.dequeueReusableSupplementaryView(ofKind: kind, withReuseIdentifier: identifier, for: indexPath) as? ___FILEBASENAMEASIDENTIFIER___ { return view }
         return ___FILEBASENAMEASIDENTIFIER___()

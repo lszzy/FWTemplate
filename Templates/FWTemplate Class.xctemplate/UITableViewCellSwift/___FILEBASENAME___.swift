@@ -13,7 +13,7 @@ class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___ {
         return String(describing: self)
     }
     
-    class func cell(withTableView tableView: UITableView) -> ___FILEBASENAMEASIDENTIFIER___ {
+    class func cell(with tableView: UITableView) -> ___FILEBASENAMEASIDENTIFIER___ {
         let identifier = cellIdentifier()
         if let cell = tableView.dequeueReusableCell(withIdentifier: identifier) as? ___FILEBASENAMEASIDENTIFIER___ { return cell }
         return ___FILEBASENAMEASIDENTIFIER___(style: .default, reuseIdentifier: identifier)

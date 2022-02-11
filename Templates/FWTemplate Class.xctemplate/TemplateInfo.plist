@@ -11,7 +11,7 @@
 	<key>Summary</key>
 	<string>A Cocoa Touch class</string>
 	<key>SortOrder</key>
-	<string>2</string>
+	<string>0</string>
 	<key>DefaultCompletionName</key>
 	<string>MyClass</string>
 	<key>Platforms</key>
