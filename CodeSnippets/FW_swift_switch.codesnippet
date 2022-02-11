@@ -3,19 +3,26 @@
 <plist version="1.0">
 <dict>
 	<key>IDECodeSnippetCompletionPrefix</key>
-	<string>oc_weakSelf</string>
+	<string>swift_switch</string>
 	<key>IDECodeSnippetCompletionScopes</key>
 	<array>
 		<string>CodeBlock</string>
 	</array>
 	<key>IDECodeSnippetContents</key>
-	<string>__weak __typeof(self) weakSelf = self;</string>
+    <string>switch &lt;#Variable#&gt; {
+case &lt;#Value#&gt;:
+    &lt;#Code#&gt;
+default:
+    break
+}</string>
 	<key>IDECodeSnippetIdentifier</key>
-	<string>1AD3496A-7B93-4B60-9C5D-E54FC734E544</string>
+	<string>7329708D-DA17-4129-A8F9-A780DFA5FAE1</string>
 	<key>IDECodeSnippetLanguage</key>
-	<string>Xcode.SourceCodeLanguage.Objective-C</string>
+	<string>Xcode.SourceCodeLanguage.Swift</string>
+	<key>IDECodeSnippetSummary</key>
+	<string>Swift Switch</string>
 	<key>IDECodeSnippetTitle</key>
-	<string>weakSelf</string>
+	<string>Swift Switch:</string>
 	<key>IDECodeSnippetUserSnippet</key>
 	<true/>
 	<key>IDECodeSnippetVersion</key>
