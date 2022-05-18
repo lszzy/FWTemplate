@@ -31,7 +31,7 @@
     if (self = [super initWithStyle:style reuseIdentifier:reuseIdentifier]) {
         
         [self setupSubviews];
-        [self setupConstraints];
+        [self setupLayout];
     }
     return self;
 }
@@ -42,7 +42,7 @@
         
 }
 
-- (void)setupConstraints {
+- (void)setupLayout {
     
 }
 

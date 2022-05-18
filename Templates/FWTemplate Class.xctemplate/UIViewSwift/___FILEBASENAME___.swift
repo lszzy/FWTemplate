@@ -13,7 +13,7 @@ class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___ {
         super.init(frame: frame)
         
         setupSubviews()
-        setupConstraints()
+        setupLayout()
     }
     
     required init?(coder: NSCoder) {
@@ -29,7 +29,7 @@ private extension ___FILEBASENAMEASIDENTIFIER___ {
         
     }
     
-    private func setupConstraints() {
+    private func setupLayout() {
         
     }
     
