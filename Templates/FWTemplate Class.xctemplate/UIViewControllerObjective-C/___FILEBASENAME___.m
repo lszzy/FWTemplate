@@ -19,7 +19,7 @@
 
     [self setupNavbar];
     [self setupSubviews];
-    [self setupConstraints];
+    [self setupLayout];
 }
 
 #pragma mark - Setup
@@ -32,7 +32,7 @@
         
 }
 
-- (void)setupConstraints {
+- (void)setupLayout {
     
 }
 

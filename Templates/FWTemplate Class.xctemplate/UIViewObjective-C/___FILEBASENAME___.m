@@ -18,7 +18,7 @@
     if (self = [super initWithFrame:frame]) {
         
         [self setupSubviews];
-        [self setupConstraints];
+        [self setupLayout];
     }
     return self;
 }
@@ -29,7 +29,7 @@
         
 }
 
-- (void)setupConstraints {
+- (void)setupLayout {
     
 }
 

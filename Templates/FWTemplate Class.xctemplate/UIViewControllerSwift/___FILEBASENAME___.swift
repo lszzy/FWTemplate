@@ -14,7 +14,7 @@ class ___FILEBASENAMEASIDENTIFIER___: ___VARIABLE_cocoaTouchSubclass___ {
 
         setupNavbar()
         setupSubviews()
-        setupConstraints()
+        setupLayout()
     }
     
 }
@@ -30,7 +30,7 @@ private extension ___FILEBASENAMEASIDENTIFIER___ {
         
     }
     
-    private func setupConstraints() {
+    private func setupLayout() {
         
     }
 }
